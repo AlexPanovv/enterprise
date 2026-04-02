@@ -3,9 +3,9 @@ version: '3.8'
 services:
   postgres:
     image: postgres:17
-    container_name: customerManagement-postgres
+    container_name: customerManagement-postgres-Lab2
     environment:
-      POSTGRES_DB: customerdb
+      POSTGRES_DB: customerdb_lab2
       POSTGRES_USER: myuser
       POSTGRES_PASSWORD: mypass
     ports:
